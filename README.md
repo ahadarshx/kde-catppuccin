@@ -1,6 +1,6 @@
 <div align="center">
 
-# dotfiles
+# kde catppuccin
 
 **terminal, editor and reader configs from my kde setup, in catppuccin mocha**
 
@@ -21,9 +21,9 @@
 ## Install
 
 ```bash
-git clone https://github.com/ahadarshx/dotfiles.git ~/dotfiles
-cp -r ~/dotfiles/{kitty,nvim,fastfetch,zathura} ~/.config/
-cp ~/dotfiles/starship.toml ~/.config/
+git clone https://github.com/ahadarshx/kde-catppuccin.git ~/kde-catppuccin
+cp -r ~/kde-catppuccin/{kitty,nvim,fastfetch,zathura} ~/.config/
+cp ~/kde-catppuccin/starship.toml ~/.config/
 ```
 
 Back up your own configs first. In Neovim, run `:PackerSync` once to install the plugins. <kbd>Space</kbd> is the leader key.
